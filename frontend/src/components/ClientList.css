@@ -1,0 +1,55 @@
+.client-table td button {
+  margin-right: 8px; /* Add some margin to separate buttons */
+}
+
+.client-list-container {
+  padding: 20px;
+}
+
+.client-table-wrapper {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-table th, .client-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.client-table th {
+  background-color: #f2f2f2;
+}
+
+.client-table tr:hover {
+  background-color: #f0f0f0;
+}
+
+.client-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.button-container .btn {
+  margin-right: 10px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
