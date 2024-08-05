@@ -1,13 +1,20 @@
 {
   "name": "project-manager",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
     "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "cd backend && node src/server.js",
-    "client": "cd frontend && npm start"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.15"
   }
 }
-
